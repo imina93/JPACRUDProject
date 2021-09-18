@@ -1,1 +1,3 @@
 rootProject.name = 'MonsterGallery'
+
+includeFlat 'JPADndMonsters'

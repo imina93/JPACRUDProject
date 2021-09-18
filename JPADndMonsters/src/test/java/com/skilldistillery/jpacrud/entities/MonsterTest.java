@@ -45,8 +45,14 @@ class MonsterTest {
 	@Test
 	void test_Monster_entity_mapping() {
 		assertNotNull(monster);
-		assertEquals("Oni", monster.getName());
+		assertEquals("Abeloth", monster.getName());
 		
+	}
+	@Test
+	void test_Monster_table_mapping( ) {
+		assertNotNull(monster);
+		assertEquals("abberation", monster.getRace());
+		assertEquals("large", monster.getSize());
 	}
 
 }
