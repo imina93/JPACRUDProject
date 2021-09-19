@@ -19,5 +19,11 @@ public class MonsterController {
 		return "home";
 
 }
+	@RequestMapping(path = {"show.do"})
+	public String show(Model model, int id) {
+		model.addAttribute("monster", dao.findById(id));
+		return "show";
+		
+	}
 	
 }

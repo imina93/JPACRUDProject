@@ -20,6 +20,8 @@ public class Monster {
 	@Column(name = "armor_class")
 	private int armorClass;
 	private String description;
+	@Column(name = "image_url")
+	private String imageUrl;
 	
 	
 	
@@ -90,6 +92,15 @@ public class Monster {
 	public void setDescription(String description) {
 		this.description = description;
 	}
+	
+
+	public String getImageUrl() {
+		return imageUrl;
+	}
+
+	public void setImageUrl(String imageUrl) {
+		this.imageUrl = imageUrl;
+	}
 
 	@Override
 	public String toString() {
@@ -110,6 +121,8 @@ public class Monster {
 		builder.append(armorClass);
 		builder.append(", Description: ");
 		builder.append(description);
+		builder.append(", Image Url : ");
+		builder.append(imageUrl);
 		builder.append(".");
 		return builder.toString();
 	}
