@@ -6,7 +6,7 @@
 <link rel="stylesheet" href="css/main.css"></link>
 <head>
 <meta charset="UTF-8">
-<title>New Monster Information</title>
+<title>Monster Creation View</title>
 </head>
 <body>
 	<div>
