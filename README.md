@@ -15,7 +15,7 @@ JSP Views and JSTL for Dynamic Web Pages
 Spring Boot - JPA Integration
 
 HOW TO RUN
-From the home page, users can select from a menu the options to either create, search for, update, and delete different monster entries.
+From the home page, users can select from a menu the options to either create, search for, update, and delete different monster entries. The application is being run at this address: "http://18.118.191.203:8080/MonsterGallery/".
 
 LESSONS LEARNED
 I was able to get a better grasp of controller mapping, which for me personally was the hardest and most time consuming part of the project. My biggest takeaway would be to focus fully on a single aspect of CRUD when implemnting. Trying to map several different controller paths at once when the corresponding jsp files haven't been designed yet can lead to many mapping errors. Instead it was better to fully map out the paths for each individually and mapping it immediately. There is also the issue of getting correct confirmations when adding new monsters as the error message will display even when the monster has been successfully added.
