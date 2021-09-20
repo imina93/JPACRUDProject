@@ -5,7 +5,13 @@ import java.util.List;
 import com.skilldistillery.jpacrud.entities.Monster;
 
 public interface MonsterDAO {
-	Monster findById(int monsterId);
+	Monster findById(int dogId);
+	
 	List<Monster> findAll();
 	
+	boolean addMonster(Monster monster);
+	
+	boolean updateMonster(Monster monster);
+	
+	boolean deleteMonster(int monsterId);
 }
