@@ -13,7 +13,7 @@
 <div>
 <c:choose>
 	<c:when test="${empty monster}">
-		No such Monster!
+		Monster ID invalid.
 	</c:when>
 	<c:otherwise>
 	<form action="update.do" method="get">
