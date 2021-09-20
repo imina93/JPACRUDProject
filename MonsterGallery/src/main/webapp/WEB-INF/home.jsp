@@ -10,22 +10,25 @@
 </head>
 <h1>Welcome to the Monster Gallery!</h1>
 <body>
+<table>
+ <tr>
+  <th>Navigation Menu</th>
+ </tr>
+ <tr>
+  <td><a href="search.jsp">Search For A Monster</a></td>
+  <td><a href="add.jsp">Add A New Monster</a></td>
+  <td><a href="update.jsp">Update A Monster</a></td>
+  <td><a href="delete.jsp">Delete A Monster</a></td>
+  <td><a href="findAll.jsp">Show All Current Monsters</a></td>
+ </tr>
+ <tr>
+
+</table>
 
 
-	<h3>Search a Monster</h3>
-	<a href="search.jsp">Search</a>
 
-	<h3>Add a new Monster</h3>
-	<a href="add.jsp">Add</a>
 
-	<h3>Update a Monster</h3>
-	<a href="update.jsp">Update</a>
 
-	<h3>Delete a Monster</h3>
-	<a href="delete.jsp">Delete</a>
-
-	<h3>Show all Monsters</h3>
-	<a href="findAll.jsp">Show All</a>
 	
 	
 </body>
